@@ -7,14 +7,14 @@ body {
 }
 
 
-h1, h2, h4 {
+h1, h2, h3 {
     text-align: center;
     background-color: cornflowerblue;
     padding: 2%;
     border-radius: 20px;
 }
 
-h2, h4 {
+h2, h3 {
     text-transform: capitalize;
 }
 
