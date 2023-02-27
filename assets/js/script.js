@@ -73,19 +73,19 @@ function checkQuestions() {
         incorrect++;
     }
 /* messages to correspond with score tally up 0, 1, 2 */
-    var scoreMessage = [
+    let scoreMessage = [
         "Excellent score! Way to go!! :D",
         "Good score. Keep up the good work :)",
         "Awwww ... Hit the books! You can do it :)"
     ];
 /* images to correspond with score tally up of either 0, 1, 2 */
-    var images = [
+    let images = [
         "assets/images/excellent.jpg",
         "assets/images/goodjob.jpg",
         "assets/images/awwww.jpg"
     ];
-    /* tally up of scores */
-    var scoreTallyUp;
+/* tally up of scores for image and message to correspond to result */
+    let scoreTallyUp;
 
     if (correct <= 4) {
         scoreTallyUp = 2;
