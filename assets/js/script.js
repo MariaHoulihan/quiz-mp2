@@ -76,7 +76,7 @@ function checkQuestions() {
     var scoreMessage = [
         "Excellent score! Way to go!! :D",
         "Good score. Keep up the good work :)",
-        "Awwww ... Hit the books to improve your score! You can do it :)"
+        "Awwww ... Hit the books! You can do it :)"
     ];
 /* images to correspond with score tally up of either 0, 1, 2 */
     var images = [
