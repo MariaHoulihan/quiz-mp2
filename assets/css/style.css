@@ -58,3 +58,10 @@ p {
     border: 1px solid black;
     color: white;
 }
+
+/* return to top of page styling */
+#backToTop:hover {
+    background-color: magenta;
+    border: 1px solid black;
+    color: white;
+}
