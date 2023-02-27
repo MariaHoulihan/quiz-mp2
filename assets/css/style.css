@@ -7,14 +7,14 @@ body {
 }
 
 
-h1, h2 {
+h1, h2, h4 {
     text-align: center;
     background-color: cornflowerblue;
     padding: 2%;
     border-radius: 20px;
 }
 
-h2 {
+h2, h4 {
     text-transform: capitalize;
 }
 
@@ -33,7 +33,70 @@ p {
 }
 
 /* styling for quiz answers */
-#qchoice {
+#qchoice-1a, #qchoice-1b, #qchoice-1c {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    display: inline-flex;
+    cursor: pointer;
+}
+#qchoice-2a, #qchoice-2b, #qchoice-2c {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    display: inline-flex;
+    cursor: pointer;
+}
+#qchoice-3a, #qchoice-3b, #qchoice-3c {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    display: inline-flex;
+    cursor: pointer;
+}
+#qchoice-4a, #qchoice-4b, #qchoice-4c {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    display: inline-flex;
+    cursor: pointer;
+}
+#qchoice-5a, #qchoice-5b, #qchoice-5c {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    display: inline-flex;
+    cursor: pointer;
+}
+#qchoice-6a, #qchoice-6b, #qchoice-6c {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    display: inline-flex;
+    cursor: pointer;
+}
+#qchoice-7a, #qchoice-7b, #qchoice-7c {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    display: inline-flex;
+    cursor: pointer;
+}
+#qchoice-8a, #qchoice-8b, #qchoice-8c {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    display: inline-flex;
+    cursor: pointer;
+}
+#qchoice-9a, #qchoice-9b, #qchoice-9c {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    display: inline-flex;
+    cursor: pointer;
+}
+#qchoice-10a, #qchoice-10b, #qchoice-10c {
     margin-top: 1%;
     margin-bottom: 1%;
     text-align: center;
