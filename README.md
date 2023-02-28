@@ -1,15 +1,33 @@
 # Anatomy and Physiology Short Quiz
 
+![My Image](assets/images/responsive.JPG)
+
 ## Introduciton to the Quiz:
 
+The quiz is a very simple in design 10 question quiz of moderately challenging anatomy and physiology questions. The quiz is designed to challenge students studying anatomy and/or physiology or for people interested in this subject.
 
+![My Image](assets/images/quizTitleandMainImage.JPG)
+
+The quiz is designed to motivate the user if they did not receive the score they hoped for with a positive message that appears under their score after they submit their answers. Also the quiz is also designed to spur on and motivate users that scored 9 or more out of 10 answers correctly.
+
+![My Image](assets/images/headings.JPG)
 
 ## Features:
 
-### 
+### Quiz Questions
+
+![My Image](assets/images/Questions1-5.JPG)
+
+![My Image](assets/images/Questions6-10.JPG)
+
+The quiz has 10 questions with 3 possible options to choose as an answer. The quiz has radio buttons that must be selected. The submit button will not allow submission of questions if a quiz has been left blank or missed by mistake.
 
 
-### 
+### Submit Answers Area
+
+At the end of the questions there is a submit answers button. This button has an event listener attached to it and when the scores are calculated, your score comes up (including the negative or incorrect out of 10 also). If the user scores 4 or less a motivational message pops up on screen as well as an image of being at the end of a concrete stairs and looking uopwards to the top of the stairs. If the user scores between 5 and 8 correct answers, another message pops up with a message to congratulate the user on a good score and an image of a young buy with a medal around his neck (as can be seen in the below image). If the user scores 9 or 10 they get a different message saying excellent score and an image of an elated woman holding a tablet.
+
+![My Image](assets/images/scoreMessageandImage.JPG)
 
 
 ## Languages used
@@ -32,7 +50,11 @@ I confirm that the project is responsive and works on all standard screen sizes 
 
 ## Bugs:
 
-Initially when I ran the html code there were errors and warnings. There was an error 
+Initially when I ran the html code there were errors and warnings. There was an error with regard to an id I had used on each of my input elements for the anwser options. I called all of the options (30 in total, 3 per question) qchoice. I was using this id to style the input elements. This showed up as an error. When I change all the qchoice to qchoice(1-10)a, b and c the error was solved.
+
+I also got a recommendation to have a header in the section that holds the quiz questions. I added a h3 element and my accessibility score improved.
+
+I had also forgotten to put and alt and a source on the image element in my html file for the images that appear after the submission button is clicked.
 
 ## Validator Testing:
 
@@ -40,32 +62,49 @@ Initially when I ran the html code there were errors and warnings. There was an 
 No errors or warnings were noted when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input).
 
 ### CSS
-No errors were noted when passing through the Jigsaw, [CSS offical validator](https://jigsaw.w3.org/css-validator/).
+No errors were noted when passing through the Jigsaw, [CSS offical validator](https://jigsaw.w3.org/css-validator/)
 
 ### JSHint
 No errors were noted when passing through [JSHint](https://jshint.com/)
 
+The following warnings were noted:
+
+![My Image](assets/images/JSHint1.JPG)
+
+![My Image](assets/images/JSHint2.JPG)
+
 ### Accessibility
+
 I confirm that colors and fonts are easy to read and also that the accessiblity is high as can be seen in the below screenshot taken about it was ran through lighthouse in dev tools.
 
-IMAGE FOR LIGHTHOUSE TO GO HERE!
+I received 2 different lighthouse scores as can be seen in the images below. One is from last night and the second is from this morning.
+
+![My Image](assets/images/lighthouseMP2mobile1.JPG)
+
+![My Image](assets/images/lighthouseMP2.JPG)
 
 ### Unfixed Bugs
 
-No unfixed bugs to the best of my knowledge.
+There is an error in the console that I am unsure what it is or how to go about fixing it. See images below:
+
+![My Image](assets/images/consoleError.JPG)
+
+![My Image](assets/images/consoleError2.JPG)
 
 ## Deployment:
 
-
 The site was deployed to GitHub pages and the code is:
 
-https://mariahoulihan.github.io/
+https://mariahoulihan.github.io/quiz-mp2/
+
+![My Image](assets/images/deployed.JPG)
+
 
 #### The deployment method is as follows:
 
-I went to my repository for my project, the link is https://github.com/MariaHoulihan/singing-herbalist
+I went to my repository for my project, the link is https://github.com/MariaHoulihan/quiz-mp2
 
-I clicked settings in my repository. Next I selected Pages on the menu on the left hand side of the screen, which took me to GitHub pages. I clicked on Source and selected main from the drop down menu. Then I pressed saved. I refreshed the page and my site was live and the link is above in the screen shot and also in the text.  
+I clicked settings in my repository. Next I selected Pages on the menu on the left hand side of the screen, which took me to GitHub pages. I clicked on Source and selected main from the drop down menu. Then I pressed save. It took a very long time to build and I was concerned about the deployment process. I contacted student support at [Code Institute](https://learn.codeinstitute.net) and the advisor told me to click another option in the dropdown menu beside main, which was docs. I did this and pressed save. The link then appeared and said that the site had went live 25 minutes prior to that time. refreshed the page and my site was live and the link is above in the screen shot and also in the text under deployment.
 
 #### Forking the GitHub Repository
 
